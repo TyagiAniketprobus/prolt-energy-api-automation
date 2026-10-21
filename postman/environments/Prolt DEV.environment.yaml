@@ -1,0 +1,23 @@
+name: Prolt DEV
+values:
+  - key: baseUrl
+    value: ''
+  - key: crmBaseUrl
+    value: ''
+  - key: accessToken
+    value: ''
+  - key: refreshToken
+    value: ''
+  - key: userEmail
+    value: ''
+  - key: userPassword
+    value: ''
+  - key: userID
+    value: ''
+  - key: applicationID
+    value: ''
+  - key: deviceTD
+    value: ''
+  - key: token
+    secret: true
+color: 0

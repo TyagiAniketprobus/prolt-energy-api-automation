@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{baseUrl}}/api/prolt-service/auth/captcha/login?email={{userEmail}}&deviceID={{deviceTD}}"
+method: POST
+headers:
+  x-captcha-payload: MTd8MTc5MDE0NTUwMg
+  x-captcha-signature: 6_HKzCNi2Zm-Wp2I1RFyNycbHUB49vFE0O_9BQtlo9w
+queryParams:
+  email: "{{userEmail}}"
+  deviceID: "{{deviceTD}}"
+body:
+  type: json
+  content: |-
+    {
+      "email": "aniket@probus.io",
+      "password": "Probus@123"
+    }
+auth:
+  type: noauth
+order: 1790144278418
